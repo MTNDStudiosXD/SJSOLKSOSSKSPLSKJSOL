@@ -1,0 +1,20 @@
+[build-system]
+build-backend = "poetry.masonry.api"
+requires = ["poetry>=0.12"]
+
+[tool]
+[tool.poetry]
+authors = ["Your Name <you@example.com>"]
+description = ""
+name = "tintedshamelesstrapezoids"
+version = "0.1.0"
+[tool.poetry.dependencies]
+async-timeout = "^3.0"
+client = "^0.0.1"
+discord = "^1.0"
+pychalk = "^2.0"
+python = "^3.7"
+python-status = "^1.0"
+youtube-dl = "^2020.2"
+flask = "^1.1"
+[tool.poetry.dev-dependencies]
